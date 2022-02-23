@@ -1,40 +1,44 @@
 import './App.css';
 /*import Primeiro from './components/Primeiro';
-import Multi, { Componete1, Componete2 } from './components/Multi'*/
+import Multi, { Componete1, Componete2 } from './components/Multi'
 import Estilos from './components/estilos/Estilos.js';
 import MinMax from './components/MinMax';
 import Botao from './components/testebotao/Botao';
 import ExBotao from './components/Botao';
-import Titulo from './components/Titulo';
+import Titulo from './components/Titulo';*/
+import Contador from './components/Contador';
 
 /* SEGUNDA AULA REACT */
 
 function App () {
   return (
     <div>
-      {/*<Primeiro />
+      {/*
+      <Primeiro />
       <Multi/>
       <Componete1/>
-      <Componete2/>*/}
+      <Componete2/>
 
-      {/* Criar um componente chamado Estilos */}
+      Criar um componente chamado Estilos
       <Estilos/>
 
-      {/* Criando um componentes MinMax */}
+      Criando um componentes MinMax
       <MinMax min = "5" max = "10"/>
       <MinMax min = {10} max = {20}/>
 
-      {/* Criando um componente Botao */}
+      Criando um componente Botao
       <ExBotao/>
 
-      {/* Exemplo botao em Aula */}
+      Exemplo botao em Aula
       <Botao label="Comprar" backColor="red"/>
       <Botao label="Adicionar ao carrinho" backColor="green"/>
       <Botao label="Finalizar compra" backColor="blue"/>  
 
-      {/* Criar um componente chamado Titulo com React Fragment */}    
-      <Titulo principal = "ola" secundario = "tudo bem"/>
+      Criar um componente chamado Titulo com React Fragment
+      <Titulo principal = "ola" secundario = "tudo bem"/> */}
 
+      {/*Criar um componente chamado Contador */}
+      < Contador inicial = {0} passo = {10} limite = {50}/>
     </div>
   )
 }
