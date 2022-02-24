@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 function Pessoa(props) {
-
     return (
       <>
         <hr />
@@ -11,7 +10,7 @@ function Pessoa(props) {
             <div>{props.estado_civil}</div>
         <hr />
       </>
-    )
+    );
 }
 
-export default Pessoa
+export default Pessoa;

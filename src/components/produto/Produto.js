@@ -4,9 +4,9 @@ import './Produto.css'
 function Produto(props) {
 
     let btnClasses = 'btn-comprar '
-    btnClasses += props.verde ? 'verde' : ''
-    btnClasses += props.azul ? 'azul' : ''
-    btnClasses += props.preto ? 'preto' : ''
+    btnClasses += props.verde ? 'verde' : '';
+    btnClasses += props.azul ? 'azul' : '';
+    btnClasses += props.preto ? 'preto' : '';
 
     return (
         <>
@@ -17,7 +17,7 @@ function Produto(props) {
             <button className={btnClasses}>Comprar</button>
         </li>
         </>
-    )
+    );
 }
 
-export default Produto
+export default Produto;
