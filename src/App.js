@@ -5,14 +5,27 @@ import Estilos from './components/estilos/Estilos.js';
 import MinMax from './components/MinMax';
 import Botao from './components/testebotao/Botao';
 import ExBotao from './components/Botao';
-import Titulo from './components/Titulo';*/
-import Contador from './components/Contador';
+import Titulo from './components/Titulo';
+import Contador from './components/Contador';*/
+import Pessoa from './components/pessoa/Pessoa'
+import Produto from './components/produto/Produto'
+
 
 /* SEGUNDA AULA REACT */
 
-function App () {
+function App() {
   return (
     <div>
+      <ul>
+        <Produto nome="teclado" marca="dell" valor="179,90" azul />
+        <Produto nome="monitor" marca="philips" valor="900,00" verde />
+        <Produto nome="Caneca" marca="QSD" valor="20,00" preto />
+      </ul>
+
+      <Pessoa nome="Jonas" idade="28" sexo="M" estado_civil="casado" />
+      <Pessoa nome="Will" idade="18" sexo="M" estado_civil="casado" />
+      <Pessoa nome="Wanderson" idade="21" sexo="M" estado_civil="solteiro" />
+
       {/*
       <Primeiro />
       <Multi/>
@@ -35,10 +48,10 @@ function App () {
       <Botao label="Finalizar compra" backColor="blue"/>  
 
       Criar um componente chamado Titulo com React Fragment
-      <Titulo principal = "ola" secundario = "tudo bem"/> */}
+      <Titulo principal = "ola" secundario = "tudo bem"/> 
 
-      {/*Criar um componente chamado Contador */}
-      < Contador inicial = {0} passo = {10} limite = {50}/>
+      {Criar um componente chamado Contador }
+      < Contador inicial = {0} passo = {10} limite = {50}/>*/}
     </div>
   )
 }
