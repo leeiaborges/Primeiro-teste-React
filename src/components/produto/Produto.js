@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import './Produto.css'
+import React, { useState } from 'react';
+import './Produto.css';
 
 function Produto(props) {
 
@@ -14,7 +14,7 @@ function Produto(props) {
             <div className="nome">{props.nome}</div>
             <div className="marca">{props.marca}</div>
             <div className="valor">R$ {props.valor}</div>
-            <button className={btnClasses}>Comprar</button>
+            <button className="valor">Comprar</button>
         </li>
         </>
     );
